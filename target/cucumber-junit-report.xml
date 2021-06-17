@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="49.788">
+<testcase classname="Homepage Functionality" name="user able to click on any superbrand" time="49.381">
+<system-out><![CDATA[Given user is on the outnet homepage........................................passed
+When user click on any superbrand...........................................passed
+Then user able to see the respective products of that superbrand............passed
+]]></system-out>
+</testcase>
+</testsuite>

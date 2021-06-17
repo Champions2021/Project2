@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-17T10:24:30.230Z",
+        "before": [
+          {
+            "result": {
+              "duration": 29342000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "YNAP.com.BaseClassPackage.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "user able to click on any superbrand",
+        "description": "",
+        "id": "homepage-functionality;user-able-to-click-on-any-superbrand",
+        "after": [
+          {
+            "result": {
+              "duration": 2608000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "YNAP.com.BaseClassPackage.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on the outnet homepage",
+            "match": {
+              "location": "YNAP.com.StepDefinitions.RegistrationSteps.user_is_on_the_outnet_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16836000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user click on any superbrand",
+            "match": {
+              "location": "YNAP.com.StepDefinitions.SuperbrandSteps.user_click_on_any_superbrand()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user able to see the respective products of that superbrand",
+            "match": {
+              "location": "YNAP.com.StepDefinitions.SuperbrandSteps.user_able_to_see_the_respective_products_of_that_superbrand()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Superbrands"
+          }
+        ]
+      }
+    ],
+    "name": "Homepage Functionality",
+    "description": "  As a user\n  I want to go on outnet website\n  So that I can buy a products",
+    "id": "homepage-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Homepage.feature",
+    "tags": []
+  }
+]
