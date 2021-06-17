@@ -5,17 +5,15 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src\\test\\resources", tags = "@Superbrands",
-            plugin = { "html:target/cucumber-html-report",
-                    "json:target/cucumber-json-report.json",
-                    "junit:target/cucumber-junit-report.xml",
-                    "pretty:target/cucumber-pretty-report.txt"}
+@CucumberOptions(features = "src\\test\\resources",tags = "@Superbrands",
+        plugin = { "html:target/cucumber-html-report",
+                "json:target/cucumber-json-report.json",
+                "junit:target/cucumber-junit-report.xml",
+                "pretty:target/cucumber-pretty-report.txt"}
 
-    ) //feature bracket ends
+)// feature bracket ends
 
-    public class RunCukesTest {
+class RunCukesTest {
+}
 
-    }
-
-    //hello
 
